@@ -10,30 +10,29 @@
 </head>
 <body>
     <header>
+        <img class="logo_inicial" src="img/Logo.png" alt="logotipo">
         <h1>Busca:</h1>
     </header>
     
     <main>
-        <nav>
-            <ul>
-                <li>
+         <ul class = 'coluna'>
+                <li class="cards_busca">
                     <label for="nome">Nome:</label>
                     <input type="text" id="nome" />
                 </li>    
-                <li>
+                <li class="cards_busca">
                     <label for="especialidade">Especialidade:</label>
                     <input type="text" id="especialidade" />
                 </li>
-                <li>
+                <li class="cards_busca">
                     <label for="convenio">Convênio:</label>
                     <input type="text" id="convenio" />
                 </li>
-                <li>
+                <li class="cards_busca">
                     <label for="localizacao">Localização:</label>
                     <input type="text" id="localizacao" />
                 </li>
-            </ul>
-        </nav>
+        </ul>
 
         <!-- criar um botao que vá para a pagina de resultados -->
         <button type="button" onclick="window.location.href='Resultado_Medico.html'">Buscar</button>

@@ -60,6 +60,7 @@ h1{
     margin-bottom: 2.5rem;
 }
 
+
 .logo_inicial {
     max-width: 80px; 
     padding: 1rem;
@@ -71,4 +72,47 @@ h1{
     position: fixed;
     bottom: 0%;
 }
+
+.cards_busca{
+    display: fixed;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkgray;
+    width: 90%;
+    height: auto;
+    margin: 1rem;
+    position: relative;   
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+.busca_médico{
+    display: fixed;
+    align-items: center;
+    background-color: lightgreen;
+    width: 90%;
+    height: auto;
+    margin: 1rem;
+    position: relative;   
+    font-size: 1rem;
+    text-align: center;
+}
+
+.cards_resultado_medico {
+    height: 110;
+    width: 350px;
+    background-color: lightgray;
+    border-radius: 1rem;
+    margin: 20px;
+}
+
+.cards_resultado_medico2 {
+    height: 24;
+    width: 232px;
+    background-color: darkgray;
+    border-radius: 1rem;
+    margin: 20px;
+}
+
 
