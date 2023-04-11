@@ -67,8 +67,8 @@ h1{
     margin-right: 1rem;
     margin-left: 1rem;
     border-radius: 1rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -158,85 +158,129 @@ h3 {
 }
 /* ----------------------------------------------------------------------------------------------------------------------- */
 
-.card_compartilhamento { 
-    height: 25rem;
-    width: 355px;
+.card_perfil_med{
+    height: 25.5rem;
+    width: 100%-2rem;
     left: auto;
-    background-color: #EEEEEE;
+    background-color: lightgray;
     border-radius: 1rem;
-    margin: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    text-align: center;
+    align-items: center;
 }
 
-.card_compartilhamento_realizado {
-    
-    height: 20rem;
-    width: 360px;
-    left: auto;
-    background-color: #EEEEEE;
+.logo_perfil {
+    max-width: 120px; 
+    margin-top: 1rem;
+}
+
+.logo_estrela {
+    max-width: 20px; 
+    margin: 0.1rem;
+}
+
+.linha_estrela {
+    width: 4rem;
+    display: flex;
+    position: relative;
+    left: 50%;
+    margin-left: -2rem;
+    margin-bottom: 0.8rem;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h2_medico{
+    font-size: 1.1rem;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    color: #0A3042;
+}
+
+.circulo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: darkgrey;
+    position: flex;
+    margin: 0.5rem;
+    top: 0%;
+    left: 0%;
+
+}
+
+.logo_pequeno {
+    max-height: 35px; 
+    margin-top: 0.45rem;
+}
+
+.card_indicacao{
+    height: auto;
+    width: 12rem;
+    background-color: darkgray;
     border-radius: 1rem;
-    margin: 20px;
-}
-
-.card_compartilhamento_botao{
-    height: 2rem;
-    width: 100px;
-    background-color: #92F3A9;
-    border-radius: 1rem;
-    margin: 10px;
+    margin-bottom: 1rem;
     position: relative;
-    left: 6rem;
+    left: 5.2rem;
 }
 
-.imagem_compartilhamento{
-    max-width: 80px; 
-    padding: 1.5rem;
-    position: relative;
-    right: 1rem;
-    top: 0.5rem;
-}
-
-.tamanho{
-    font-size: 2rem;
-    position: relative;
-    right: 0%;
-}
-.tamanho2{
-    font-size: 1.3rem;
-    position: relative;
-    bottom: -1.5rem;
-}
-
-.card_compartilhamento_2{
-    height: 4rem;
-    width: 320px;
-    left: auto;
-    background-color: #C5C5C5;
-    border-radius: 1rem;
-    margin: 1rem;
-}
-
-.card_compartilhamento_3{
-    height: 10rem;
-    width: 360px;
-    left: auto;
-    background-color: #EEEEEE;
-    border-radius: 1rem;
-    margin: 1rem;
-}
-
-.tamanho_comp{
-    font-size: 1.5rem;
-    position: relative;
-    left: 7rem;
-}
-
-.tamanho_comp_2{
+.h2_medico_peq{
     font-size: 1rem;
     position: relative;
-    left: 6rem;
+    text-align: center;
+    padding: 0.6rem;
+    color: #0A3042;
 }
 
-.tamanho_comp_3{
+.card_desricao_med{
+    height: 8rem;
+    width: 100%-2rem;
+    left: auto;
+    background-color: lightgray;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
     position: relative;
-    bottom: 10rem;
+    text-align: center;
+    align-items: center;
+}
+
+.h2_medico_desricao{
+    font-size: 1.3rem;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+    color: #0A3042;
+}
+
+.card_peq_med{
+    height: 6.7rem;
+    width: 6.7rem;
+    left: auto;
+    background-color: lightgray;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+.linha_med_peq{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
 }

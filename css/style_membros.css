@@ -156,87 +156,98 @@ h3 {
     justify-content: space-around;
 
 }
-/* ----------------------------------------------------------------------------------------------------------------------- */
-
-.card_compartilhamento { 
-    height: 25rem;
-    width: 355px;
-    left: auto;
-    background-color: #EEEEEE;
-    border-radius: 1rem;
-    margin: 20px;
-}
-
-.card_compartilhamento_realizado {
-    
+/* ------------------------------------------------- */
+.card_membros{
+    display: fixed;
+    align-items: center;
+    flex-direction: row;
+    background-color: lightgray;
+    width: 90%;
     height: 20rem;
-    width: 360px;
-    left: auto;
-    background-color: #EEEEEE;
+    margin: 1rem;
+    position: relative;   
+    font-size: 1rem;
+    text-align: center;
     border-radius: 1rem;
-    margin: 20px;
 }
-
-.card_compartilhamento_botao{
-    height: 2rem;
-    width: 100px;
-    background-color: #92F3A9;
-    border-radius: 1rem;
-    margin: 10px;
-    position: relative;
-    left: 6rem;
-}
-
-.imagem_compartilhamento{
-    max-width: 80px; 
-    padding: 1.5rem;
-    position: relative;
-    right: 1rem;
-    top: 0.5rem;
-}
-
-.tamanho{
-    font-size: 2rem;
-    position: relative;
-    right: 0%;
-}
-.tamanho2{
-    font-size: 1.3rem;
-    position: relative;
-    bottom: -1.5rem;
-}
-
-.card_compartilhamento_2{
+.exame_membro{
+    display: fixed;
+    flex-direction: row;
+    background-color: darkgray;
+    width: 90%;
     height: 4rem;
-    width: 320px;
-    left: auto;
-    background-color: #C5C5C5;
-    border-radius: 1rem;
     margin: 1rem;
-}
-
-.card_compartilhamento_3{
-    height: 10rem;
-    width: 360px;
-    left: auto;
-    background-color: #EEEEEE;
+    position: relative;
     border-radius: 1rem;
-    margin: 1rem;
-}
 
-.tamanho_comp{
+}
+.h1_membro{
     font-size: 1.5rem;
     position: relative;
-    left: 7rem;
+    color: #0A3042;
+    padding: 0.5rem;
+    font-weight:bold;
 }
-
-.tamanho_comp_2{
+.txt_exame{
     font-size: 1rem;
+    color: #0A3042;
+    font-weight:bold;
+    padding:0.5rem;
     position: relative;
-    left: 6rem;
+    margin-right: 14rem;
 }
-
-.tamanho_comp_3{
+.txt_descricao{
+    font-size: 0.75rem;
+    color: #0A3042;
+    padding:0.45rem;
+    font-weight:bold;
     position: relative;
-    bottom: 10rem;
+    margin-right: 14rem;
+}
+.card_consultas{
+    display: fixed;
+    align-items: center;
+    flex-direction: row;
+    background-color: lightgray;
+    width: 90%;
+    height: 14rem;
+    margin: 1rem;
+    position: relative;   
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+.h1_consultas{
+    font-size: 1.5rem;
+    position: relative;
+    color: #0A3042;
+    padding: 0.5rem;
+    font-weight:bold;
+}
+.txt_consulta{
+    font-size: 1rem;
+    color: #0A3042;
+    font-weight:bold;
+    position: relative;
+    padding: 0.5rem;
+    margin-right: 13rem;
+}
+.txt_profiss{
+    font-size: 0.75rem;
+    color: #0A3042;
+    padding:0.45rem;
+    font-weight:bold;
+    position: relative;
+    margin-right: 14rem;
+}
+.exame_consulta{
+    display: fixed;
+    flex-direction: row;
+    background-color: darkgray;
+    width: 90%;
+    height: 4rem;
+    margin: 1rem;
+    position: relative;
+    border-radius: 1rem;
+
 }
