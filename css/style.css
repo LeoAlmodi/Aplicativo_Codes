@@ -74,11 +74,23 @@ h1{
 }
 
 .cards_busca{
-    display: flex;
+    display: fixed;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     background-color: darkgray;
+    width: 90%;
+    height: auto;
+    margin: 1rem;
+    position: relative;   
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+.busca_médico{
+    display: fixed;
+    align-items: center;
+    background-color: lightgreen;
     width: 90%;
     height: auto;
     margin: 1rem;
