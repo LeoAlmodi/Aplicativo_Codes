@@ -1,0 +1,115 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0.8rem;
+}
+
+.ret_azul {
+    position: flex;
+    height: 126px;
+    width: 100%;
+    top: 0%;
+    background-color: #0A3042;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+h1{
+    color: white;
+    font-size: 2rem;
+    padding: 3rem;
+    position: absolute;
+    left: 15%;
+}
+
+.wrapper .item{
+    min-width: 9rem;
+    height: 9rem;
+    line-height: 3.5rem;
+    /* justify-content: center; */
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+
+.logo_inicial {
+    max-width: 80px; 
+    padding: 1rem;
+}
+
+.aba{
+    display: fixed;
+    border-top: 0.1rem solid #0A3042;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0%;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkgray;
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem; 
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    position: relative;
+    left: 50%;
+    margin-left: -5rem;
+
+}
+
+h3 {
+    font-size: 1rem;
+    position: relative;
+    text-align: center;
+    margin-top: 0.27rem;
+    color: #0A3042;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 0.8rem;
+    position: relative;
+    text-align: center;
+    margin-top: 0.27rem;
+    color: #0A3042;
+    padding: 1rem;
+}
+.linha_aba {
+    position: fixed;
+    bottom: 0%;
+    border-top: 0.1rem solid #0A3042;
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+/* ----------------------------------------------------------------------------------------------------------------------- */
