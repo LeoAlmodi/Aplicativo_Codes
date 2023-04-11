@@ -1,0 +1,286 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0.8rem;
+}
+
+.ret_azul {
+    position: flex;
+    height: 126px;
+    width: 100%;
+    top: 0%;
+    background-color: #0A3042;
+}
+
+.notificacao{
+    position: absolute;
+    padding: 1rem;
+    right: 0%;
+    top: 3%;
+
+
+}
+.coluna {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+h1{
+    color: white;
+    font-size: 2rem;
+    padding: 3rem;
+    position: absolute;
+    left: 15%;
+}
+
+.wrapper{
+    display: flex;
+    max-height: 20rem;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+    
+.wrapper::-webkit-scrollbar{
+    width: 0;}
+    
+.wrapper .item{
+    min-width: 9rem;
+    height: 9rem;
+    line-height: 3.5rem;
+    /* justify-content: center; */
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.logo_inicial {
+    max-width: 80px; 
+    padding: 1rem;
+}
+
+.aba{
+    display: fixed;
+    border-top: 0.1rem solid #0A3042;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0%;
+}
+
+.cards_busca{
+    display: fixed;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkgray;
+    width: 90%;
+    height: auto;
+    margin: 1rem;
+    position: relative;   
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+.busca_médico{
+    display: fixed;
+    align-items: center;
+    background-color: lightgreen;
+    width: 90%;
+    height: auto;
+    margin: 1rem;
+    position: relative;   
+    font-size: 1rem;
+    text-align: center;
+}
+
+.cards_resultado_medico {
+    
+    height: 110;
+    width: 350px;
+    left: auto;
+    background-color: lightgray;
+    border-radius: 1rem;
+    margin: 20px;
+}
+
+
+.cards_resultado_medico2 {
+
+    height: 24px;
+    width: 232px;
+    background-color: darkgray;
+    border-radius: 1rem;
+    margin: 5px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.perfil_medico1 {
+    max-width: 80px; 
+    padding: 1rem;
+}
+
+h3 {
+    font-size: 1rem;
+    position: relative;
+    text-align: center;
+    margin-top: 0.27rem;
+    color: #0A3042;
+}
+
+.linha_aba {
+    position: fixed;
+    bottom: 0%;
+    border-top: 0.1rem solid #0A3042;
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+.card_perfil_med{
+    height: 25.5rem;
+    width: 100%-2rem;
+    left: auto;
+    background-color: lightgray;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+.logo_perfil {
+    max-width: 120px; 
+    margin-top: 1rem;
+}
+
+.logo_estrela {
+    max-width: 20px; 
+    margin: 0.1rem;
+}
+
+.linha_estrela {
+    width: 4rem;
+    display: flex;
+    position: relative;
+    left: 50%;
+    margin-left: -2rem;
+    margin-bottom: 0.8rem;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h2_medico{
+    font-size: 1.1rem;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    color: #0A3042;
+}
+
+.circulo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: darkgrey;
+    position: flex;
+    margin: 0.5rem;
+    top: 0%;
+    left: 0%;
+
+}
+
+.logo_pequeno {
+    max-height: 35px; 
+    margin-top: 0.45rem;
+}
+
+.card_indicacao{
+    height: auto;
+    width: 12rem;
+    background-color: darkgray;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    left: 5.2rem;
+}
+
+.h2_medico_peq{
+    font-size: 1rem;
+    position: relative;
+    text-align: center;
+    padding: 0.6rem;
+    color: #0A3042;
+}
+
+.card_desricao_med{
+    height: 8rem;
+    width: 100%-2rem;
+    left: auto;
+    background-color: lightgray;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+.h2_medico_desricao{
+    font-size: 1.3rem;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+    color: #0A3042;
+}
+
+.card_peq_med{
+    height: 6.7rem;
+    width: 6.7rem;
+    left: auto;
+    background-color: lightgray;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+.linha_med_peq{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
