@@ -77,7 +77,7 @@ h1{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    border: 0.1rem solid black;
+    background-color: darkgray;
     width: 90%;
     height: auto;
     margin: 1rem;
