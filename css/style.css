@@ -25,7 +25,7 @@ h1{
     font-size: 2rem;
     padding: 2rem;
     position: absolute;
-    left: 10%;
+    left: 15%;
 }
 
 .wrapper{
@@ -58,4 +58,5 @@ h1{
 
 .container_img {
     max-width: 80px; 
+    padding: 1rem;
 }
