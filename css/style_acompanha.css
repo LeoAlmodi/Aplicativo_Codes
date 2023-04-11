@@ -1,0 +1,222 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0.8rem;
+}
+
+.ret_azul {
+    position: flex;
+    height: 126px;
+    width: 100%;
+    top: 0%;
+    background-color: #0A3042;
+}
+
+.notificacao{
+    position: absolute;
+    padding: 1rem;
+    right: 0%;
+    top: 3%;
+
+
+}
+.coluna {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+
+
+    
+}
+
+
+.linha {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+h1{
+    color: white;
+    font-size: 2rem;
+    padding: 3rem;
+    position: absolute;
+    left: 15%;
+}
+
+.wrapper{
+    display: flex;
+    max-height: 20rem;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+    
+.wrapper::-webkit-scrollbar{
+    width: 0;}
+    
+.wrapper .item{
+    min-width: 9rem;
+    height: 9rem;
+    line-height: 3.5rem;
+    /* justify-content: center; */
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+
+.logo_inicial {
+    max-width: 80px; 
+    padding: 1rem;
+}
+
+.aba{
+    display: fixed;
+    border-top: 0.1rem solid #0A3042;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0%;
+}
+
+.cards_busca{
+    display: fixed;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkgray;
+    width: 90%;
+    height: auto;
+    margin: 1rem;
+    position: relative;   
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+.busca_médico{
+    display: fixed;
+    align-items: center;
+    background-color: lightgreen;
+    width: 90%;
+    height: auto;
+    margin: 1rem;
+    position: relative;   
+    font-size: 1rem;
+    text-align: center;
+}
+
+.cards_resultado_medico {
+    
+    height: 110;
+    width: 350px;
+    left: auto;
+    background-color: lightgray;
+    border-radius: 1rem;
+    margin: 20px;
+}
+
+
+.cards_resultado_medico2 {
+
+    height: 24px;
+    width: 232px;
+    background-color: darkgray;
+    border-radius: 1rem;
+    margin: 5px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.perfil_medico1 {
+    max-width: 80px; 
+    padding: 1rem;
+}
+
+h3 {
+    font-size: 1rem;
+    position: relative;
+    text-align: center;
+    margin-top: 0.27rem;
+    color: #0A3042;
+}
+
+.linha_aba {
+    position: fixed;
+    bottom: 0%;
+    border-top: 0.1rem solid #0A3042;
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* mudei */
+
+.coluna_acompanhamento{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10rem;
+}
+
+.cards_acompanhamentos {
+    display: fixed;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    background-color: #eeee;
+    width: 9rem;
+    height: 9rem;
+    margin: 0.5rem;
+    position: relative;   
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.coluna_icone_acompanhamento{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0.5rem;
+}
+
+.tamanho1{
+
+    position: relative;
+    top: 0.5rem;
+
+
+}
+
+.tamanho2{
+    position: relative;
+    font-size: 0.9rem;
+    top:1.5rem;
+}
+
+.tamanho3{
+    position: relative;
+    top: 0.5rem;
+    font-size: 0.9rem;
+
+}
+.tamanho4{
+
+    position: relative;
+    font-size: 0.9rem;
+    top: 0.9rem;
+}
