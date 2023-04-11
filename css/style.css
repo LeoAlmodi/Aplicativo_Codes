@@ -6,7 +6,6 @@ header{
     position: relative;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    : #0A3042;
 }
 
 .coluna {
@@ -45,5 +44,13 @@ h1{
     background-color: #ddd;
     margin-right: 1rem;
     margin-left: 1rem;
+    border-radius: 10px;
+}
+
+.topo_azul{
+    background: #0A3042;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
     border-radius: 10px;
 }
