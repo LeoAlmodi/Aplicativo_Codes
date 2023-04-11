@@ -53,3 +53,7 @@ h1{
     height: auto;
     width: 100%;
 }
+
+.container img {
+    max-width: 80px; 
+}
