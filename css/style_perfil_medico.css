@@ -240,7 +240,7 @@ h3 {
 }
 
 .card_desricao_med{
-    height: 8rem;
+    height: 5rem;
     width: 100%-2rem;
     left: auto;
     background-color: lightgray;
@@ -283,4 +283,10 @@ h3 {
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: 1rem;
+}
+
+.logo_funcoes_med{
+    margin-top: 0.7rem;
+    max-width: 50px; 
+    padding: 1rem;
 }
