@@ -25,19 +25,14 @@ header{
 }
 .coluna {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5rem;
-
-
+    flex-direction: column;
     
 }
 
 
 .linha {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     padding: 0.5rem;
@@ -159,43 +154,41 @@ h3 {
     width: 100%;
     align-items: center;
     justify-content: space-around;
+
 }
+/* --------------------------------------------------------------------------------- */
 
-/* mudei */
-
-.cards_acompanhamentos {
+.card_confirm{
     display: fixed;
+    align-items: center;
     flex-direction: row;
-    justify-content:center;
-    align-items:center;
-    background-color: #eeee;
-    width: 9rem;
-    height: 9rem;
-    margin: 0.5rem;
-    position: relative;   
+    background-color: lightgray;
+    width: 90%;
+    height: 25rem;
+    margin: 1rem;
+    position: absolute;   
     font-size: 1rem;
     text-align: center;
     border-radius: 1rem;
 }
-.coluna_acompanhamento{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 10rem;
-}
 
-.coluna_icone_acompanhamento{
-    display: flex;
-    flex-direction: column;
+.h2_confirm{
+    font-size: 1.25rem;
     position: relative;
-    top: 2rem;
+    color:#0A3042 ;
+    padding: 2rem;
 }
-
-.tamanho{
-    align-items: center;
-    justify-content: center;
+.h1_confirm{
+    font-size: 1.5rem;
     position: relative;
-    bottom: 1rem;
+    color: #0A3042;
+    padding: 0.5rem;
+    font-weight:bold;
+}
+.h3_confirm{
+    font-size: 1.25rem;
+    position: relative;
+    color:#0A3042 ;
+    padding: 2.5rem;
+    font-weight:bold;
 }
