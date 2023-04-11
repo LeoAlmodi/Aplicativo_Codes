@@ -157,3 +157,44 @@ h3 {
 
 }
 /* ----------------------------------------------------------------------------------------------------------------------- */
+
+.card_compartilhamento {
+    
+    height: 20rem;
+    width: 350px;
+    left: auto;
+    background-color: #EEEEEE;
+    border-radius: 1rem;
+    margin: 20px;
+}
+
+.card_compartilhamento_realizado {
+    
+    height: 20rem;
+    width: 350px;
+    left: auto;
+    background-color: #EEEEEE;
+    border-radius: 1rem;
+    margin: 20px;
+}
+
+/* .fonte_compartilhamento_realizado{
+    font-size: 25;
+} */
+
+.imagem_compartilhamento{
+    size: 1rem;
+    position: relative;
+    top: 4rem;
+}
+
+.tamanho{
+    font-size: 2rem;
+    position: relative;
+    right: 0%;
+}
+.tamanho2{
+    font-size: 1.3rem;
+    position: relative;
+    bottom: -8rem;
+}
