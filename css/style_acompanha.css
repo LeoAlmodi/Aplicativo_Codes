@@ -193,9 +193,16 @@ h3 {
     top: 2rem;
 }
 
-.tamanho{
+.tamanho1{
     align-items: center;
     justify-content: center;
     position: relative;
-    bottom: 1rem;
+
+}
+
+.tamanho2{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 0.9rem;
 }
