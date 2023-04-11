@@ -163,6 +163,15 @@ h3 {
 
 /* mudei */
 
+.coluna_acompanhamento{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10rem;
+}
+
 .cards_acompanhamentos {
     display: fixed;
     flex-direction: row;
@@ -177,32 +186,37 @@ h3 {
     text-align: center;
     border-radius: 1rem;
 }
-.coluna_acompanhamento{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 10rem;
-}
 
 .coluna_icone_acompanhamento{
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 2rem;
+    top: 0.5rem;
 }
 
 .tamanho1{
-    align-items: center;
-    justify-content: center;
+
     position: relative;
+    top: 0.5rem;
+
 
 }
 
 .tamanho2{
-    align-items: center;
-    justify-content: center;
     position: relative;
     font-size: 0.9rem;
+    top:1.5rem;
+}
+
+.tamanho3{
+    position: relative;
+    top: 0.5rem;
+    font-size: 0.9rem;
+
+}
+.tamanho4{
+
+    position: relative;
+    font-size: 0.9rem;
+    top: 0.9rem;
 }
