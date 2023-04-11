@@ -99,11 +99,12 @@ h1{
     text-align: center;
 }
 
-.cards_resultado {
-    font-size: 1.5rem;
-    color: white;
-    text-align: center;
-    padding: 1rem;
+.cards_resultado_medico {
+    height: 110;
+    width: 350px;
+    background-color: lightgray;
+    border-radius: 1rem;
+    margin: 20px;
 }
 
 .cards_resultado_medico2 {
