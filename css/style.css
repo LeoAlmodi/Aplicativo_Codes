@@ -35,7 +35,7 @@ h1{
     left: 15%;
 }
 
-.wrapperx{
+.wrapper{
     display: flex;
     max-height: 20rem;
     max-width: 100%;
@@ -43,35 +43,10 @@ h1{
     overflow-y: hidden;
 }
     
-.wrapperx::-webkit-scrollbar{
+.wrapper::-webkit-scrollbar{
     width: 0;}
     
-.wrapperx .item{
-    min-width: 9rem;
-    height: 9rem;
-    line-height: 3.5rem;
-    /* justify-content: center; */
-    text-align: center;
-    background-color: #ddd;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    border-radius: 1rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-}
-
-.wrappery{
-    display: flex;
-    max-height: 20rem;
-    max-width: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-    
-.wrappery::-webkit-scrollbar{
-    width: 0;}
-    
-.wrappery .item{
+.wrapper .item{
     min-width: 9rem;
     height: 9rem;
     line-height: 3.5rem;
