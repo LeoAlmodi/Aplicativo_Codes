@@ -53,8 +53,9 @@ h1{
     position: fixed;
     height: auto;
     width: 100%;
+    align-items: top;
 }
 
-.container img {
+.container_img {
     max-width: 80px; 
 }
