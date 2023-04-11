@@ -105,3 +105,13 @@ h1{
     text-align: center;
     padding: 1rem;
 }
+
+.cards_resultado_medico2 {
+    height: 24;
+    width: 232px;
+    background-color: darkgray;
+    border-radius: 1rem;
+    margin: 20px;
+}
+
+
