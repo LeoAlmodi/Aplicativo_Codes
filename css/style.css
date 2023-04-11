@@ -49,4 +49,7 @@ h1{
 
 .topo_azul{
     background: #0A3042;
+    position: fixed;
+    height: auto;
+    width: 100%;
 }
