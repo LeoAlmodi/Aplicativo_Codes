@@ -87,7 +87,7 @@ h1{
     text-align: center;
     padding: 1rem;
 }
-.busca_médico{
+.busca_medico{
     display: fixed;
     align-items: center;
     background-color: lightgreen;
@@ -97,5 +97,6 @@ h1{
     position: relative;   
     font-size: 1rem;
     text-align: center;
+    padding: 1rem;
 }
 
