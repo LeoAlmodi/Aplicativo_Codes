@@ -7,9 +7,18 @@ header{
     border-bottom: 0.01rem solid black;
 }
 
-.linha{
-    display:
+.coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 h1{
     font-size: 2rem;
     padding: 2rem;
