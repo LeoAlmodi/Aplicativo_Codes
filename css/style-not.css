@@ -71,7 +71,7 @@ h1{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: darkgray;
+    background-color: #EEEEEE;
     width: 10rem;
     height: 10rem;
     margin: 1rem; 
@@ -80,7 +80,7 @@ h1{
     padding: 1rem;
     border-radius: 1rem;
     position: relative;
-    left: 50%;
+    left: 46%;
     margin-left: -5rem;
 
 }
@@ -113,3 +113,8 @@ h4 {
 
 }
 /* ----------------------------------------------------------------------------------------------------------------------- */
+
+.alinhamento{
+    position: relative;
+    right: 1rem;
+}
