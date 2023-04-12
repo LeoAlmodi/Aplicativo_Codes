@@ -157,9 +157,9 @@ h3 {
 
 }
 /* ----------------------------------------------------------------------------------------------------------------------- */
-
+  
 .card_agend{
-    height: 25.5rem;
+    height: 21rem;
     width: 100%-2rem;
     left: auto;
     background-color: #EEEEEE;
@@ -170,4 +170,68 @@ h3 {
     position: relative;
     text-align: center;
     align-items: center;
+}
+
+/* // For the month */
+.month-indicator {
+  color: #0A3042;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+}
+
+/* // CSS grid used for the dates */
+.day-of-week,
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+/* // Styles for the weekday/weekend header */
+.day-of-week {
+  margin-top: 1.25em;
+}
+
+.day-of-week > * {
+  font-size: 0.7em;
+  color: #0A3042;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+/* Dates */
+.date-grid {
+  margin-top: 0.5em;
+}
+
+/* Positioning the first day */
+.date-grid button:first-child {
+  grid-column: 6;
+}
+
+/* // Style for each day */
+.date-grid button {
+  position: relative;
+  border: 0;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: transparent;
+  color: #0A3042;
+}
+
+.date-grid button:hover,
+.date-grid button:focus {
+  outline: none;
+  background-color: #92F3A9;
+}
+
+.alinhamento_calend{
+    margin-top: 1rem;
+}
+
+.calendar{
+    padding: 1rem;
 }
