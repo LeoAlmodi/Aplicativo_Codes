@@ -1,11 +1,45 @@
-1# Finalizar acompanhamento, notificação e recomendação.
-2# Compartilhamento (bastante coisa pra fazer)
-3# Hyperlinks em tudo
-4# Fazer o agendamento, meu acompanhamento
-5# VERIFICAR ALINHAMENTO.
-6# VERIFICAR TAMANHO DOS CARDS.
-7# VERIFICAR TITULOS.
-8# CSS e HTML VALIDATOR.
-9# LOGO em todas as telas que nao sao as iniciais. 
-10# Acompanhamento familiar tem que arrumar algumas coisas
-11# mudar o botao de voltar para um jeito que funicone sem ter q usar java
+-------HTML--------
+1# Acompanhamento familia
+- Icone add membro 
+- Icone remover 
+- Alinhamento header e main 
+
+2# Acompanhamento pessoal
+- Icone add Compartilhamento 
+- Alinhamento header e main
+
+3# Acompanhamento 
+- Finalizado 
+
+4# Agendamento 
+- Finalizado 
+
+5# Compartilhamento realizado
+- Arrumar icone
+- Finalizado 
+
+6# Compartilhamento
+- 
+
+7# Confirmação agendamento
+- 
+
+8# Index 
+- Alinhamento header e main
+
+9# Membros 
+-
+-
+10# Notifcações
+-
+
+11# busca_médico
+
+12# perfil_medico
+
+13# recomendação
+
+14# Resultado_medico
+
+
+
