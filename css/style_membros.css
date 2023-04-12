@@ -10,7 +10,7 @@ header{
 .ret_azul {
     position: flex;
     height: 126px;
-    width: 100%;
+    width: 101%;
     top: 0%;
     background-color: #0A3042;
 }
@@ -43,7 +43,8 @@ h1{
     font-size: 2rem;
     padding: 3rem;
     position: absolute;
-    left: 15%;
+    left: 50%;
+    margin-left: -8.415rem;
 }
 
 .wrapper{
@@ -111,33 +112,6 @@ h1{
     text-align: center;
 }
 
-.cards_resultado_medico {
-    
-    height: 110;
-    width: 350px;
-    left: auto;
-    background-color: lightgray;
-    border-radius: 1rem;
-    margin: 20px;
-}
-
-
-.cards_resultado_medico2 {
-
-    height: 24px;
-    width: 232px;
-    background-color: darkgray;
-    border-radius: 1rem;
-    margin: 5px;
-    text-align: center;
-    font-size: 1rem;
-}
-
-.perfil_medico1 {
-    max-width: 80px; 
-    padding: 1rem;
-}
-
 h3 {
     font-size: 1rem;
     position: relative;
@@ -162,7 +136,7 @@ h3 {
     align-items: center;
     flex-direction: row;
     background-color: lightgray;
-    width: 90%;
+    width: 22.375rem;
     height: 20rem;
     margin: 1rem;
     position: relative;   
@@ -174,7 +148,7 @@ h3 {
     display: fixed;
     flex-direction: row;
     background-color: darkgray;
-    width: 90%;
+    width: 20.375rem;
     height: 4rem;
     margin: 1rem;
     position: relative;
@@ -209,7 +183,7 @@ h3 {
     align-items: center;
     flex-direction: row;
     background-color: lightgray;
-    width: 90%;
+    width: 22.375rem;
     height: 14rem;
     margin: 1rem;
     position: relative;   
@@ -244,7 +218,7 @@ h3 {
     display: fixed;
     flex-direction: row;
     background-color: darkgray;
-    width: 90%;
+    width: 20.375rem;
     height: 4rem;
     margin: 1rem;
     position: relative;
