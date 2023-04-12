@@ -8,3 +8,4 @@
 8# CSS e HTML VALIDATOR.
 9# LOGO em todas as telas que nao sao as iniciais. 
 10# Acompanhamento familiar tem que arrumar algumas coisas
+11# mudar o botao de voltar para um jeito que funicone sem ter q usar java
