@@ -318,13 +318,129 @@ h6{
 }
 
 
+/* Minha familia */
+
+.coluna_minha_familia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 0.5rem;
 
 
+}
 
+.cards_membros{
+    display: fixed;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    background-color: #eeee;
+    width: 20rem;
+    height: 22rem;
+    margin: 0.5rem;
+    position: relative;   
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
 
+.coluna_cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 0.5rem;
+}
 
+.cards_para_texto{
+    display: fixed;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+    top: 0.1rem;
+    background-color: darkgray;
+    width: 19rem;
+    height: 5.5rem;
+    margin: 0.5rem;  
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 1rem;
 
+}
 
+.Nome_membro_txt{
+    font-size: 1.18rem;
+    text-align: top;
+    position:absolute;
+    top: 6%;
+    left: 30%;
+    color: #0A3042;
+}
+
+.card_familiar_colorido_txt{
+    font-size: 0.9rem;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: black;
+}
+
+.linha_cards_coloridos{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+    top: 2.5rem;
+    
+}
+
+.card_verde{
+    height: 2rem;
+    width: 6rem;
+    background-color: #92F3A9;
+    border-radius: 1rem;
+    margin: 0.1rem;
+
+}
+
+.card_vermelho{
+    height: 2rem;
+    width: 6rem;
+    background-color: #F39292;
+    border-radius: 1rem;
+    margin: 0.1rem;
+}
+
+.card_add{
+    height: 2rem;
+    width: 6rem;
+    background-color: #eeee;
+    width: 20rem;
+    height: 5rem;
+    border-radius: 1rem;
+    margin: 0.8rem;
+    align-items: center;
+
+}
+
+.card_add_txt{
+    font-size: 1.4rem;
+    position: relative;
+    color: #0A3042;
+}
+
+.linha_card_add{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+}
 
 
 
@@ -417,7 +533,7 @@ h6{
 /* 
 -------------------------------------- */
 
-.card_acomp { 
+/* .card_acomp { 
     height: 25rem;
     width: 355px;
     background-color: #EEEEEE;
@@ -475,5 +591,5 @@ h6{
     flex-direction: row;
     justify-content: center;
     font-size: 1.5rem;
-}
+} */
 
