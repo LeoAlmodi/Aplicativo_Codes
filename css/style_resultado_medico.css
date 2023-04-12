@@ -41,7 +41,8 @@ h1{
     font-size: 2rem;
     padding: 3rem;
     position: absolute;
-    left: 15%;
+    left: 50%;
+    margin-left: -7.666rem;
 }
 
 .logo_inicial {
