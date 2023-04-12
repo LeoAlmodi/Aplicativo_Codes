@@ -43,7 +43,8 @@ h1{
     font-size: 2rem;
     padding: 3rem;
     position: absolute;
-    left: 15%;
+    left: 50%;
+    margin-left: -9.998rem;
 }
 
 .wrapper{
@@ -160,7 +161,7 @@ h3 {
 
 .card_perfil_med{
     height: 25.5rem;
-    width: 100%-2rem;
+    width: 22.375rem;
     left: auto;
     background-color: lightgray;
     border-radius: 1rem;
@@ -205,8 +206,8 @@ h3 {
 }
 
 .circulo{
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
     border-radius: 50%;
     background-color: darkgrey;
     position: flex;
@@ -241,7 +242,7 @@ h3 {
 
 .card_desricao_med{
     height: 5rem;
-    width: 100%-2rem;
+    width: 22.375rem;
     left: auto;
     background-color: lightgray;
     border-radius: 1rem;
