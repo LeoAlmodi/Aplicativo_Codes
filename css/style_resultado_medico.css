@@ -62,7 +62,7 @@ h1{
 
 .cards_resultado_medico {
     
-    height: 110px;
+    height: 115px;
     width: 350px;
     left: auto;
     background-color: lightgray;
@@ -76,7 +76,7 @@ h1{
     width: 232px;
     background-color: darkgray;
     border-radius: 1rem;
-    margin: 5px;
+    margin: 0.3rem;
     text-align: center;
     font-size: 1rem;
 }
