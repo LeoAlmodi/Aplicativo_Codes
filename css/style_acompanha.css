@@ -240,11 +240,128 @@ h3 {
     justify-content:center;
     align-items:center;
     background-color: #eeee;
-    width: 18rem;
-    height: 18rem;
+    width: 20rem;
+    height: 20rem;
     margin: 0.5rem;
     position: relative;   
     font-size: 1rem;
     text-align: center;
     border-radius: 1rem;
 }
+
+
+.cards_para_texto{
+    display: fixed;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background-color: darkgray;
+    width: 19rem;
+    height: 4rem;
+    margin: 0.5rem;  
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+-------------------------------------- */
