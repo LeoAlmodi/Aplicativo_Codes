@@ -160,7 +160,7 @@ h3 {
   
 .card_agend{
     height: 21rem;
-    width: 100%-2rem;
+    width: 22.375rem;
     left: auto;
     background-color: #EEEEEE;
     border-radius: 1rem;
@@ -234,4 +234,29 @@ h3 {
 
 .calendar{
     padding: 1rem;
+}
+
+.botao_agendar{
+    height: 6rem;
+    width: 22.375rem;
+    left: auto;
+    background-color: #92F3A9;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.logo_agend {
+    max-width: 55px; 
+    padding: 0.7rem;
+    margin-right: 0.5rem;
+}
+
+.linha_agend {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 2rem;
 }
