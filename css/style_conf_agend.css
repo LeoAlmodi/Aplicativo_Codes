@@ -10,7 +10,7 @@ header{
 .ret_azul {
     position: flex;
     height: 126px;
-    width: 100%;
+    width: 101%;
     top: 0%;
     background-color: #0A3042;
 }
@@ -43,7 +43,8 @@ h1{
     font-size: 2rem;
     padding: 3rem;
     position: absolute;
-    left: 15%;
+    left: 50%;
+    margin-left: -8.61rem;
 }
 
 .wrapper{
@@ -163,7 +164,7 @@ h3 {
     align-items: center;
     flex-direction: row;
     background-color: lightgray;
-    width: 90%;
+    width: 22.375rem;
     height: 25rem;
     margin: 1rem;
     position: absolute;   

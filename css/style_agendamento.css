@@ -10,7 +10,7 @@ header{
 .ret_azul {
     position: flex;
     height: 126px;
-    width: 100%;
+    width: 110%;
     top: 0%;
     background-color: #0A3042;
 }
@@ -43,47 +43,15 @@ h1{
     font-size: 2rem;
     padding: 3rem;
     position: absolute;
-    left: 15%;
+    left: 50%;
+    margin-left: -8.61rem;
 }
-
-.wrapper{
-    display: flex;
-    max-height: 20rem;
-    max-width: 100%;
-    overflow-x: auto;
-    overflow-y: hidden;
-}
-    
-.wrapper::-webkit-scrollbar{
-    width: 0;}
-    
-.wrapper .item{
-    min-width: 9rem;
-    height: 9rem;
-    line-height: 3.5rem;
-    /* justify-content: center; */
-    text-align: center;
-    background-color: #ddd;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    border-radius: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
 
 .logo_inicial {
     max-width: 80px; 
     padding: 1rem;
 }
 
-.aba{
-    display: fixed;
-    border-top: 0.1rem solid #0A3042;
-    padding: 1rem;
-    position: fixed;
-    bottom: 0%;
-}
 
 .cards_busca{
     display: fixed;
@@ -109,33 +77,6 @@ h1{
     position: relative;   
     font-size: 1rem;
     text-align: center;
-}
-
-.cards_resultado_medico {
-    
-    height: 110;
-    width: 350px;
-    left: auto;
-    background-color: lightgray;
-    border-radius: 1rem;
-    margin: 20px;
-}
-
-
-.cards_resultado_medico2 {
-
-    height: 24px;
-    width: 232px;
-    background-color: darkgray;
-    border-radius: 1rem;
-    margin: 5px;
-    text-align: center;
-    font-size: 1rem;
-}
-
-.perfil_medico1 {
-    max-width: 80px; 
-    padding: 1rem;
 }
 
 h3 {
@@ -236,15 +177,6 @@ h3 {
     padding: 1rem;
 }
 
-.botao_agendar{
-    height: 6rem;
-    width: 22.375rem;
-    left: auto;
-    background-color: #92F3A9;
-    border-radius: 1rem;
-    margin: 1rem;
-}
-
 .logo_agend {
     max-width: 55px; 
     padding: 0.7rem;
@@ -259,4 +191,20 @@ h3 {
     padding: 0.5rem;
     font-weight: bold;
     font-size: 2rem;
+}
+
+.botao_agendar{
+    background-color: lightgreen;
+    color: #0A3042;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    position: relative;
+    left: 0.5rem;
+    width: 22.375rem;
 }
