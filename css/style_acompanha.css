@@ -236,12 +236,12 @@ h3 {
 
 .cards_meus_exames {
     display: fixed;
-    flex-direction: row;
+    flex-direction: column;
     justify-content:center;
     align-items:center;
     background-color: #eeee;
     width: 20rem;
-    height: 17.5rem;
+    height: 22rem;
     margin: 0.5rem;
     position: relative;   
     font-size: 1rem;
@@ -251,12 +251,12 @@ h3 {
 
 .cards_minhas_consultas {
     display: fixed;
-    flex-direction: row;
+    flex-direction: column;
     justify-content:center;
     align-items:center;
     background-color: #eeee;
     width: 20rem;
-    height: 12.4rem;
+    height: 15rem;
     margin: 0.5rem;
     position: relative;   
     font-size: 1rem;
