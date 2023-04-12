@@ -10,7 +10,7 @@ header{
 .ret_azul {
     position: flex;
     height: 126px;
-    width: 110%;
+    width: 100%;
     top: 0%;
     background-color: #0A3042;
 }
@@ -25,6 +25,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
     
 }
@@ -35,9 +36,9 @@ main{
     align-items: center;
     background-color: lightgray;
     border-radius: 1rem;
-    width: 90%;
+    width: 22.375rem;
     height: 2.5rem;
-    margin: 0.5rem; 
+    margin: 1rem; 
     position: relative;   
     font-size: 1rem;
     text-align: center;
@@ -48,7 +49,7 @@ main{
     display: fixed;
     align-items: left;
     background-color: lightgreen;
-    width: 90%;
+    width: 22.375rem;
     height: auto;
     margin: 1rem;
     position: relative;   
@@ -69,7 +70,8 @@ h1{
     font-size: 2rem;
     padding: 3rem;
     position: absolute;
-    left: 15%;
+    left: 50%;
+    margin-left: -9.625rem;
 }
 
 .logo_inicial {
