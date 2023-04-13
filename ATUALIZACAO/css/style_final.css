@@ -1,0 +1,365 @@
+/* -------------------------------------------------------------------------------- */
+
+                                /* CORES CARD */
+
+.cinza1_card {
+    background-color: #eeee;
+}
+
+.cinza2_card {
+    background-color: #c5c5c5;
+}
+
+.vermelho_card {
+    background-color: #ffcece;
+}
+
+.verde_card {
+    background-color: #92f3a9;
+}
+
+.azul_card {
+    background-color: #0a3042;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+                                /* CORES FONTE */
+
+.branco_fonte {
+    color: #ffffff;
+}
+
+.preto_fonte {
+    color: #000000;
+}
+
+.azul_fonte {
+    color: #0a3042;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+                                /* FONTE */
+
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@700&display=swap');
+
+.fonte_bold {
+    font-family: 'Jaldi', sans-serif;
+    font-weight: bold;
+}
+
+.fonte_regular {
+    font-family: 'Jaldi', sans-serif;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+                                /* TAMANHOS FONTE */
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 0.8rem;
+}
+
+h6 {
+    font-size: 0.6rem;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+                                /* CLASSES PADRÕES */
+
+.logo1 {
+    max-width: 85px;
+}
+
+.logo2 {
+    max-width: 65px;
+}
+
+.ret_azul {
+    position: flex;
+    height: 7.875;
+    width: 100%;
+    top: 0%;
+    background-color: #0A3042;
+}
+
+.linha_aba {
+    position: fixed;
+    bottom: 0%;
+    border-top: 0.1rem solid #0A3042;
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+                                /* CARDS (WIDTH) */
+
+/* cards cinzas claros  padroes */
+.card_pad1{
+    width: 22.375rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+/* cards cinzas escuros padroes */
+.card_pad2{
+    width: 20.375rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.card_9 {
+    width: 9rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.card_6_7 {
+    width: 6.7rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.card_6 {
+    width: 6rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+                                /* HEIGHT */
+
+.height_25 {
+    height: 25rem;
+}
+
+.height_21 {
+    height: 21rem;
+}
+
+.height_20{
+    height: 20rem;
+}
+
+.height_15{
+    height: 15rem;
+}
+
+.height_10{
+    height: 10rem;
+}
+
+.height_9{
+    height: 9rem;
+}
+
+.height_8{
+    height: 8rem;
+}
+
+.height_6{
+    height: 6rem;
+}
+
+.height_5{
+    height: 5rem;
+}
+
+.height_2_5{
+    height: 2.5rem;
+}
+
+.height_2{
+    height: 2rem;
+}
+
+.height_1_5{
+    height: 1.5rem;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+                                /* ÍCONES/IMAGENS */
+
+.icone120px {
+    max-width: 120px;
+}
+
+.icone80px {
+    max-width: 80px;
+}
+.icone60px {
+    max-width: 60px;
+}
+
+.icone50px {
+    max-width: 50px;
+}
+
+.icone40px {
+    max-width: 40px;
+}
+
+.icone35px {
+    max-width: 35px;
+}
+
+.icone30px {
+    max-width: 30px;
+}
+
+.icone20px {
+    max-width: 20px;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+                                /* ALINHAMENTO */
+
+/* TEXTO */
+.texto_esq {
+    text-align: left;
+}
+
+.texto_dir {
+    text-align: right;
+}
+
+.texto_centro {
+    text-align: center;
+}
+
+.texto_baixo {
+    vertical-align: bottom;
+}
+
+/* MARGEM */
+.mg_top1{
+    margin-top: 1rem;
+}
+
+.mg_top2{
+    margin-top: 2rem;
+}
+
+.mg_bottom1{
+    margin-bottom: 1rem;
+}
+
+.mg_bottom2{
+    margin-bottom: 2rem;
+}
+
+.mg_left1{
+    margin-left: 1rem;
+}
+
+.mg_left2{
+    margin-left: 2rem;
+}
+
+.mg_right1{
+    margin-right: 1rem;
+}
+
+.mg_right2{
+    margin-right: 2rem;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+                                /* LINHA E COLUNA */
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+                                /* SCROLL (horizontal) */
+
+.wrapper{
+    display: flex;
+    max-height: 20rem;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+    
+.wrapper::-webkit-scrollbar{
+    width: 0;}
+    
+.wrapper .item{
+    min-width: 9rem;
+    height: 9rem;
+    line-height: 3.5rem;
+    /* justify-content: center; */
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+                                /* EXTRAS */
+
+.linha_estrela {
+    width: 4rem;
+    display: flex;
+    position: relative;
+    left: 50%;
+    margin-left: -2rem;
+    margin-bottom: 0.8rem;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.circulo{
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 50%;
+    position: flex;
+    margin: 0.5rem;
+    top: 0%;
+    left: 0%;
+    background-color: #c5c5c5;
+}
