@@ -8,7 +8,8 @@ header{
 }
 
 .ret_azul {
-    position: flex;
+    display: flex;
+    position: relative;
     height: 126px;
     width: 101%;
     top: 0%;
@@ -51,7 +52,7 @@ h1{
 
 .logo_inicial {
     max-width: 70px;
-    align-items: left;
+    align-items: flex-start;
     position: absolute;
     left: 0%;
     top: 1%;
