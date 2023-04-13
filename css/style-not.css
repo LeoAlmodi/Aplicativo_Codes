@@ -67,35 +67,33 @@ h1{
 }
 
 .cards{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #EEEEEE;
+    height: 25.5rem;
     width: 22.375rem;
-    height: 20rem;
-    margin: 1rem;
-    font-size: 1rem;
-    text-align: center;
-    padding: 1rem;
+    left: auto;
+    background-color: #EEEEEE;
     border-radius: 1rem;
-
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    text-align: center;
+    align-items: center;
 }
 
 h3 {
     font-size: 2rem;
     position: relative;
     text-align: center;
-    margin-top: 0.27rem;
+    margin-top: 4rem;
     color: #0A3042;
     font-weight: bold;
 }
 
 h4 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     position: relative;
     text-align: center;
-    margin-top: 0.27rem;
+    margin-top: 4rem;
     color: #0A3042;
     padding: 1rem;
 }
@@ -110,13 +108,3 @@ h4 {
 
 }
 /* ----------------------------------------------------------------------------------------------------------------------- */
-
-.alinhamento{
-    position: relative;
-    bottom: 5rem;
-}
-
-.alinhamento2{
-    position: relative;
-    top: 2rem;
-}
