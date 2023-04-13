@@ -8,7 +8,7 @@ header{
 }
 
 .ret_azul {
-    position: flex;
+    display: flex;
     height: 126px;
     width: 101%;
     top: 0%;
