@@ -370,6 +370,18 @@ h6 {
     margin-left: -13rem;
 }
 
+.mg_left-13_2{
+    margin-left: -13.2rem;
+}
+
+.mg_left-13_5{
+    margin-left: -13.5rem;
+}
+
+.mg_left-14{
+    margin-left: -14rem;
+}
+
 .mg_right1{
     margin-right: 1rem;
 }
@@ -380,6 +392,9 @@ h6 {
 
 .mg_right13_5{
     margin-right: 13.5rem;
+}
+.mg_right14{
+    margin-right: 14rem;
 }
 
 /* PADDING */
