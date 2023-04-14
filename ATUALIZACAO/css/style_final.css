@@ -95,7 +95,7 @@ h6 {
 
 .ret_azul {
     position: flex;
-    height: 7.875;
+    height: 7.875rem;
     width: 100%;
     top: 0%;
     background-color: #0A3042;
@@ -125,6 +125,12 @@ h6 {
 /* cards cinzas escuros padroes */
 .card_pad2{
     width: 20.375rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.card_10{
+    width: 10rem;
     border-radius: 1rem;
     margin: 1rem;
 }
@@ -167,6 +173,10 @@ h6 {
     height: 15rem;
 }
 
+.height_14{
+    height: 14rem;
+}
+
 .height_10{
     height: 10rem;
 }
@@ -185,6 +195,10 @@ h6 {
 
 .height_5{
     height: 5rem;
+}
+
+.height_4{
+    height: 4rem;
 }
 
 .height_2_5{
@@ -234,6 +248,10 @@ h6 {
     max-width: 20px;
 }
 
+.icone5px{
+    max-width: 5px;
+}
+
 /* -------------------------------------------------------------------------------- */
 
                                 /* ALINHAMENTO */
@@ -252,7 +270,11 @@ h6 {
 }
 
 .texto_baixo {
-    vertical-align: bottom;
+    text-align: bottom;
+}
+
+.texto_top{
+    text-align: top;
 }
 
 /* MARGEM */
@@ -262,6 +284,10 @@ h6 {
 
 .mg_top2{
     margin-top: 2rem;
+}
+
+.mg_top13_1875{
+    margin-top: 13.1875rem;
 }
 
 .mg_bottom1{
