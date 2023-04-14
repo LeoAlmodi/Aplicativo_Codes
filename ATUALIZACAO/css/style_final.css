@@ -1,3 +1,7 @@
+* {
+    color: #000;
+}
+
 /* -------------------------------------------------------------------------------- */
 
                                 /* CORES CARD */
@@ -126,7 +130,10 @@ h6 {
 .card_pad2{
     width: 20.375rem;
     border-radius: 1rem;
-    margin: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .card_10{
@@ -278,6 +285,10 @@ h6 {
 }
 
 /* MARGEM */
+
+.mg_top0_5{
+    margin-top: 0.5rem;
+}
 .mg_top1{
     margin-top: 1rem;
 }
@@ -306,6 +317,18 @@ h6 {
     margin-left: 2rem;
 }
 
+.mg_left15{
+    margin-left: 15rem;
+}
+
+.mg_left-10{
+    margin-left: -10rem;
+}
+
+.mg_left-13{
+    margin-left: -13rem;
+}
+
 .mg_right1{
     margin-right: 1rem;
 }
@@ -313,6 +336,26 @@ h6 {
 .mg_right2{
     margin-right: 2rem;
 }
+
+.mg_right13_5{
+    margin-right: 13.5rem;
+}
+
+/* PADDING */
+
+.padding_0_5{
+    padding: 0.5rem;
+}
+
+.padding_1{
+    padding: 1rem;
+}
+
+.padding_2{
+    padding: 2rem;
+}
+
+
 
 /* -------------------------------------------------------------------------------- */
 
@@ -388,4 +431,13 @@ h6 {
     top: 0%;
     left: 0%;
     background-color: #c5c5c5;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+                                /* LINKS */
+
+a {
+    text-decoration: none;
+    color: #000;
 }
