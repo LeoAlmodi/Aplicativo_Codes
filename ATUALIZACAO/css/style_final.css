@@ -138,6 +138,11 @@ h6 {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
+.card_15{
+    width: 15rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
 
 .card_10{
     width: 10rem;
@@ -197,6 +202,10 @@ h6 {
 
 .height_8{
     height: 8rem;
+}
+
+.height_7{
+    height: 7rem;
 }
 
 .height_6{
@@ -349,6 +358,10 @@ h6 {
     margin-left: 15rem;
 }
 
+.mg_left5{
+    margin-left: 5rem;
+
+}
 .mg_left-10{
     margin-left: -10rem;
 }
