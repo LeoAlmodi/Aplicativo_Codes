@@ -57,6 +57,9 @@
     font-family: 'Jaldi', sans-serif;
 }
 
+.bold {
+    font-weight: bold;
+}
 /* -------------------------------------------------------------------------------- */
 
                                 /* TAMANHOS FONTE */
@@ -66,7 +69,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 h3 {
@@ -224,6 +227,10 @@ h6 {
 
                                 /* ÍCONES/IMAGENS */
 
+.icone160px {
+    max-width: 160px;
+}
+
 .icone120px {
     max-width: 120px;
 }
@@ -293,6 +300,7 @@ h6 {
 .mg_top0_5{
     margin-top: 0.5rem;
 }
+
 .mg_top1{
     margin-top: 1rem;
 }
@@ -301,8 +309,16 @@ h6 {
     margin-top: 2rem;
 }
 
+.mg_top3{
+    margin-top: 3rem;
+}
+
 .mg_top13_1875{
     margin-top: 13.1875rem;
+}
+
+.mg_bottom0_5{
+    margin-bottom: 0.5rem;
 }
 
 .mg_bottom1{
@@ -311,6 +327,10 @@ h6 {
 
 .mg_bottom1_5{
     margin-bottom: 1.5rem;
+}
+
+.mg_bottom3{
+    margin-bottom: 3rem;
 }
 
 .mg_bottom2{
