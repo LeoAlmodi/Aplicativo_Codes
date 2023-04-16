@@ -129,6 +129,12 @@ h6 {
     margin: 1rem;
 }
 
+.card_pad1_1{
+    width: 22.375rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
 /* cards cinzas escuros padroes */
 .card_pad2{
     width: 20.375rem;
