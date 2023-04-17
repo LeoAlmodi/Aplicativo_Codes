@@ -150,6 +150,18 @@ h6 {
     margin: 1rem;
 }
 
+.card_14{
+    width: 14rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.card_13{
+    width: 13rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
 .card_10{
     width: 10rem;
     border-radius: 1rem;
@@ -244,6 +256,10 @@ h6 {
 
 .width_1_5{
     width: 1.5rem;
+}
+
+.width_10{
+    width: 10rem;
 }
 
 
@@ -362,6 +378,14 @@ h6 {
     margin-bottom: 2rem;
 }
 
+.mg_left0_25{
+    margin-left: 0.25rem;
+}
+
+.mg_left0_5{
+    margin-left: 0.5rem;
+}
+
 .mg_left1{
     margin-left: 1rem;
 }
@@ -396,6 +420,10 @@ h6 {
 
 .mg_left-14{
     margin-left: -14rem;
+}
+
+.mg_right0_25{
+    margin-right: 0.25rem;
 }
 
 .mg_right1{
@@ -485,6 +513,7 @@ h6 {
 /* -------------------------------------------------------------------------------- */
 
                                 /* EXTRAS */
+
 
 .linha_estrela {
     width: 4rem;
