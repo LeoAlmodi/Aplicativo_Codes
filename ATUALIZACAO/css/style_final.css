@@ -124,7 +124,7 @@ h6 {
 
 /* cards cinzas claros  padroes */
 .card_pad1{
-    max-width: 390px;
+    max-width: 340px;
     border-radius: 1rem;
     margin: 1rem;
 }
@@ -224,10 +224,6 @@ h6 {
 
 .height_7{
     height: 7rem;
-}
-
-.height_6_7{
-    height: 6.7rem;
 }
 
 .height_6{
