@@ -532,10 +532,10 @@ h6 {
 .wrapper .item{
     min-width: 9rem;
     height: 9rem;
-    line-height: 3.5rem;
+    line-height: 2rem;
     /* justify-content: center; */
-    text-align: center;
-    background-color: #ddd;
+    text-align: bottom;
+    background-color: #eeee;
     margin-right: 1rem;
     margin-left: 1rem;
     border-radius: 1rem;
