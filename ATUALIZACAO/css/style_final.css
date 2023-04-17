@@ -443,6 +443,10 @@ h6 {
 
 /* PADDING */
 
+.padding_0_25{
+    padding: 0.25rem;
+}
+
 .padding_0_5{
     padding: 0.5rem;
 }
