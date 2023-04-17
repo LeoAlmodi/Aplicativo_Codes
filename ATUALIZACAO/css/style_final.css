@@ -424,9 +424,14 @@ h6 {
 
 }
 
-.mg-left-2{
-    margin-left: -2rem;
+.mg_left-1_5{
+    margin-left: -1.5rem;
 }
+
+.mg_left-2_5{
+    margin-left: -2.5rem;
+}
+
 .mg_left-10{
     margin-left: -10rem;
 }
