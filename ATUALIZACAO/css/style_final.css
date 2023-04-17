@@ -233,6 +233,9 @@ h6 {
     height: 6rem;
 }
 
+.height_5_5{
+    height: 5.5rem;
+}
 .height_5{
     height: 5rem;
 }
@@ -405,6 +408,10 @@ h6 {
     margin-left: 2rem;
 }
 
+.mg_left3_5{
+    margin-left: 3.5rem;
+}
+
 .mg_left15{
     margin-left: 15rem;
 }
@@ -440,6 +447,10 @@ h6 {
     margin-right: 0.25rem;
 }
 
+.mg_right-2{
+    margin-right: -2rem;
+}
+
 .mg_right0_5{
     margin-right: 0.5rem;
 }
@@ -450,6 +461,10 @@ h6 {
 
 .mg_right2{
     margin-right: 2rem;
+}
+
+.mg_right3_5{
+    margin-right: 3.5rem;
 }
 .mg_right4{
     margin-right: 4rem;
