@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agendamento</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style_agendamento.css">
+    <link rel="stylesheet" href="css/style_final.css">
 </head>
 <body>
     <header class="ret_azul">
-        <img class="logo_inicial" src="img/Logo.png" alt="logotipo">
-        <h1>Agendamento</h1>
+        <img class="logo2" src="img/Logo.png" alt="logotipo">
+        <h1 class="branco_fonte fonte_bold fonte_regular texto_centro mg_top1">Agendamento:</h1>
     </header>
     <main>
-        <div class="card_agend">
+        <div class="card_pad1 cinza1_card">
             <div class="calendar">
                 <div class="month-indicator">
-                <time datetime="2023-09"> Setembro 2023 </time>
+                <time class="fonte_bold" datetime="2023-09"> Setembro 2023 </time>
                 </div>
                 <div class="day-of-week"> 
                 <div>Dom</div>
@@ -122,16 +122,24 @@
                 </div>
             </div>
         </div>
-
-        <button class="botao_agendar linha_agend" type="button" onclick="window.location.href='confirmacao_agend.html'"><img class="logo_agend" src="img/agendar.png" alt="Agenda">Agendar</button>
+            
+        <ul>
+            <li><a href="confirmacao_agend.html">
+                <ul class="linha justify_center card_pad1 verde_card">
+                    <li><img class="icone50px padding_1" src="img/agendar.png" alt="agendar"></li>
+                    <li><h2 class="azul_fonte fonte_bold">Agendar</h2></li>
+                </ul>
+            </li></a>
+        </ul>
 
     </main>
+    
     <ul class="linha_aba">
         <li>
             <ul class="linha">
-                <li><a href="Perfil_Medico.html"><img src="img/Volta.png" alt="Voltar"></a></li>
-                <li><a href="index.html"><img src="img/Home_pg1.png" alt="Home"></a></li>
-                <li><a href="#"><img src="img/Perfil_pag1.png" alt="Meu Perfil"></a></li>
+                <li><a href="Pagina_Busca_medico.html"><img class="padding_0_5" src="img/Volta.png" alt="Voltar"></a></li>
+                <li><a href="index.html"><img class="padding_0_5" src="img/Home_pg1.png" alt="Home"></a></li>
+                <li><a href="#"><img class="padding_0_5" src="img/Perfil_pag1.png" alt="Meu Perfil"></a></li>
             </ul>
         </li>
     </ul>
