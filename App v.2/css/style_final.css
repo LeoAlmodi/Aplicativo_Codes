@@ -541,6 +541,9 @@ h6 {
     justify-content: center;
 }
 
+.justify_space_between{
+    justify-content: space-between;
+}
 
 .coluna {
     display: flex;
