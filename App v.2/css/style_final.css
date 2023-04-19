@@ -619,7 +619,7 @@ a {
                                 /* CALENDÁRIO */
 
 .card_agend{
-    height: 21rem;
+    height: auto;
     width: 22.375rem;
     left: auto;
     background-color: #EEEEEE;
