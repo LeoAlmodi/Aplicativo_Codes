@@ -100,7 +100,21 @@ h6 {
     max-width: 65px;
 }
 
+.logo_escrito {
+    max-width: 200px;
+    margin-top: 0.6rem;
+    margin-left: 1rem;
+}
+
 .ret_azul {
+    position: flex;
+    height: 7.375rem;
+    width: 100%;
+    top: 0%;
+    background-color: #0A3042;
+}
+
+.ret_azul2 {
     position: flex;
     height: 7.875rem;
     width: 100%;
@@ -372,6 +386,14 @@ h6 {
     margin-top: 3rem;
 }
 
+.mg_top3_5{
+    margin-top: 3.5rem;
+}
+
+.mg_top4{
+    margin-top: 4rem;
+}
+
 .mg_top13_1875{
     margin-top: 13.1875rem;
 }
@@ -584,7 +606,7 @@ h6 {
     margin-left: 1rem;
     border-radius: 1rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
 }
 
 /* -------------------------------------------------------------------------------- */
