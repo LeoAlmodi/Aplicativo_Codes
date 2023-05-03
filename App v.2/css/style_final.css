@@ -63,9 +63,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaldi&family=Old+Standard+TT&display=swap');
 
 
-.fonte
-font-family: 'Jaldi', sans-serif;
-font-family: 'Old Standard TT', serif;
+.fonte_tx_longo {
+    font-family: 'Old Standard TT', serif;
+}
 
 .bold {
     font-weight: bold;
