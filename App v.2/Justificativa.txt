@@ -1,11 +1,23 @@
-A fonte jaldi sans-serif foi escolhida para as palavras em ênfase, para que assim sejam lidas primeiro quando o usuário entrar na tela.
-A fonte para texto longo old-style serif, não utilizamos ela ainda, porém escolhemos ela por não ser tao geométrica, mas ainda sim com pouco traço, facilitando a leitura de textos mais longos.
+FONTES:
+
+Fonte principal: Poppins (sans-serif)
+Justificativa: A fonte Poppins é uma excelente escolha para títulos devido ao seu design moderno, limpo e geométrico. Ela transmite uma sensação de inovação e sofisticação, sendo amplamente utilizada em interfaces de usuário contemporâneas. A Poppins possui uma ampla gama de pesos e estilos, permitindo variações e destaque nos títulos.
+Link google fonts: https://fonts.google.com/specimen/Poppins
+Link características: https://fonts.google.com/specimen/Poppins/about
+
+Fonte para textos longos: Lora (serif)
+Justificativa: A fonte Lora é uma escolha elegante e legível para textos longos, com um toque de tradição e seriedade. Ela transmite uma sensação de confiabilidade e credibilidade, características importantes para um aplicativo de serviços médicos. A Lora oferece uma ótima legibilidade em tamanhos menores e possui detalhes sutis que a tornam atraente para a leitura prolongada.
+Link google fonts: https://fonts.google.com/specimen/Lora
+Link características: https://fonts.google.com/specimen/Lora/about
+
+
+CORES:
 
 Azul escuro #0a3042
 Verde #92f3a9
 Vermelho #ffcece
 Cinza escuro #c5c5c5
-Cinza claro #eeee
+Cinza claro #eeeeee
 Preto e branco
 
 A escolha dessa paleta de cores foi ocorrida em algumas partes. Primeiro pesquisamos sobre cores que simbolizam e remetem à area da saúde.
@@ -13,3 +25,4 @@ As principais cores são o azul e o verde. O que nos remete confiança, verdade,
 Após isso, fomos mais a fundo nas emoções que queríamos que o nosso app trouxesse. No caso, serieade porém com um visual estético e conceitual, deixando o app profissional, porém simples.
 O vermelho foi a melhor escolha para simbolizar emergência, princpalmente pelo contraste. Além dele expressar o cancelar. E em ambos os sentidos, retratar algo que tenha que ser lido atentamente.
 As tonalidades de cinza escolhidas foram para destacar e arrostar o contexto da página.
+
