@@ -46,6 +46,8 @@
 
                                 /* FONTE */
 
+
+/* FONTE PRINCIPAL */
 @import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@700&display=swap');
 
 .fonte_bold {
@@ -56,6 +58,14 @@
 .fonte_regular {
     font-family: 'Jaldi', sans-serif;
 }
+
+/* FONTE DE TEXTOS LONGOS */
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&family=Old+Standard+TT&display=swap');
+
+
+.fonte
+font-family: 'Jaldi', sans-serif;
+font-family: 'Old Standard TT', serif;
 
 .bold {
     font-weight: bold;
