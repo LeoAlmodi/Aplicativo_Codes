@@ -1,6 +1,6 @@
 FONTES:
 
-Fonte principal: Poppins (sans-serif)
+Fonte principal: Poppins (sans-serif) (!!ESSA FONTE FOI ALTERADA!!)
 Justificativa: A fonte Poppins é uma excelente escolha para títulos devido ao seu design moderno, limpo e geométrico. Ela transmite uma sensação de inovação e sofisticação, sendo amplamente utilizada em interfaces de usuário contemporâneas. A Poppins possui uma ampla gama de pesos e estilos, permitindo variações e destaque nos títulos.
 Link google fonts: https://fonts.google.com/specimen/Poppins
 Link características: https://fonts.google.com/specimen/Poppins/about
