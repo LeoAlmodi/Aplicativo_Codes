@@ -451,6 +451,10 @@ h6 {
     margin-left: 1rem;
 }
 
+.mg_left1_625{
+    margin-left: 1.625rem;
+}
+
 .mg_left2{
     margin-left: 2rem;
 }
@@ -530,6 +534,10 @@ h6 {
 
 .mg_right2{
     margin-right: 2rem;
+}
+
+.mg_right3{
+    margin-right: 3rem;
 }
 
 .mg_right3_5{
