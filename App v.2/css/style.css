@@ -371,6 +371,10 @@ h6 {
 
 /* MARGEM */
 
+.mg_top0_1{
+    margin-top: 0.1rem;
+}
+
 .mg_top0_25{
     margin-top: 0.25rem;
 }
@@ -385,6 +389,10 @@ h6 {
 
 .mg_top1_25{
     margin-top: 1.25rem;
+}
+
+.mg_top1_35{
+    margin-top: 1.35rem;
 }
 
 .mg_top1_5{
@@ -617,16 +625,16 @@ h6 {
     
 
 .scroll_x .item{
-    min-width: 9rem;
-    height: 9rem;
-    line-height: 2rem;
+    min-width: 8rem;
+    height: 8rem;
+    line-height: 1.3rem;
     /* justify-content: center; */
     text-align: bottom;
     background-color: #eeee;
-    margin-right: 1rem;
+    margin-right: 0rem;
     margin-left: 1rem;
     border-radius: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     /* margin-bottom: 1rem; */
 }
 
