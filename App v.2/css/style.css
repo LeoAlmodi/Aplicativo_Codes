@@ -767,3 +767,11 @@ a {
   outline: none;
   background-color: #92F3A9;
 }
+
+/* -------------------------------------------------------------------------------- */
+
+                                /* Progamação */
+
+#emergencia:active{
+    background-color: red;
+}                             
