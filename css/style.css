@@ -776,9 +776,9 @@ a {
     background-color: red;
 } 
 
-#card1 #card2 #card3 #card4 :active{
-    background-color: lightblue;
-}
+/* #card2:active{
+    background-color: blue;
+} */
 
 /* -------------------------------------------------------------------------------- */
 
