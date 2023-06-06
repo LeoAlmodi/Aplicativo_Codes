@@ -219,6 +219,10 @@ h6 {
 
                                 /* HEIGHT */
 
+.height_26 {
+    height: 26rem;
+}
+
 .height_25 {
     height: 25rem;
 }
@@ -706,15 +710,11 @@ a {
 
                                 /* CALENDÁRIO */
 
-.card_agend{
-    height: auto;
-    width: 22.375rem;
-    left: auto;
-    background-color: #EEEEEE;
+.calendar{
+    width: 21rem;
     border-radius: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
     position: relative;
     text-align: center;
     align-items: center;
@@ -728,11 +728,31 @@ a {
   font-size: larger;
 }
 
+.date-grid button.empty {
+    background-color: black;
+    cursor: default;
+    }
+
+#prev-month,
+#next-month {
+background: none;
+border: none;
+font-size: 1.5em;
+cursor: pointer;
+}
+
+#date-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    }
+
 /* // CSS grid used for the dates */
 .day-of-week,
 .date-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
+  align-items: center;
 }
 
 /* // Styles for the weekday/weekend header */
@@ -740,24 +760,33 @@ a {
   margin-top: 1.25em;
 }
 
-.day-of-week > * {
+.day-of-week {
   font-size: 0.7em;
   color: #0A3042;
   font-weight: bold;
   letter-spacing: 0.1em;
-  font-variant: small-caps;
   text-align: center;
 }
 
 /* Dates */
 .date-grid {
   margin-top: 0.5em;
+  align-items: center;
+}
+
+.date-grid button time {
+    display: block;
+}
+    
+.date-grid button.empty {
+background-color: #f7f7f7;
+cursor: default;
 }
 
 /* Positioning the first day */
-.date-grid button:first-child {
+/* .date-grid button:first-child {
   grid-column: 6;
-}
+} */
 
 /* // Style for each day */
 .date-grid button {
@@ -775,6 +804,13 @@ a {
   outline: none;
   background-color: #92F3A9;
 }
+
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 
 /* -------------------------------------------------------------------------------- */
 

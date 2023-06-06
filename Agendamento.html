@@ -18,8 +18,29 @@
         <img class="logo2" src="img/Logo.png" alt="logotipo">
         <h1 class="branco_fonte fonte_bold fonte_regular texto_centro mg_top0_25">Agendamento:</h1>
     </header>
-    <main>
-        <div class="card_pad1 cinza1_card padding_1">
+    <main class="col">
+
+        <div class="card_pad1 cinza1_card height_26">
+            <div class="calendar">
+              <div class="month-indicator linha">
+                <button id="prev-month" class="mg_top1_5 mg_bottom1">&lt;</button>
+                <div><h2  id="current-month-year" class="fonte_bold azul_fonte mg_top1_5 mg_bottom1"></h2></div>
+                <button id="next-month" class="mg_top1_5 mg_bottom1">&gt;</button>
+              </div>
+              <div class="day-of-week mg_bottom1">
+                <div><h4 class="fonte_bold azul_fonte">Dom</h4></div>
+                <div><h4 class="fonte_bold azul_fonte">Seg</h4></div>
+                <div><h4 class="fonte_bold azul_fonte">Ter</h4></div>
+                <div><h4 class="fonte_bold azul_fonte">Qua</h4></div>
+                <div><h4 class="fonte_bold azul_fonte">Qui</h4></div>
+                <div><h4 class="fonte_bold azul_fonte">Sex</h4></div>
+                <div><h4 class="fonte_bold azul_fonte">Sab</h4></div>
+              </div>
+              <div id="date-grid" class="date-grid bold"></div>
+            </div>
+        </div>
+
+        <!-- <div class="card_pad1 cinza1_card padding_1">
             <div class="calendar">
                 <div class="month-indicator">
                 <time class="fonte_bold azul_fonte" datetime="2023-09"> Setembro 2023 </time>
@@ -127,7 +148,7 @@
                 </div>
             </div>
         </div>
-            
+             -->
         <ul>
             <li><a href="#" id="myBtn">
                 <ul class="linha justify_center card_pad1 verde_card">

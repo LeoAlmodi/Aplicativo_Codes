@@ -76,3 +76,79 @@ document.addEventListener("DOMContentLoaded", function(){
         }})
 
 })
+
+
+document.addEventListener("DOMContentLoaded", function(){
+
+    // Obtém as referências dos elementos HTML
+    const prevMonthBtn = document.getElementById("prev-month");
+    const nextMonthBtn = document.getElementById("next-month");
+    const currentMonthYearElement = document.getElementById("current-month-year");
+    const dateGridElement = document.getElementById("date-grid");
+
+    // Define a data atual
+    let currentDate = new Date();
+
+    // Função para atualizar o calendário
+    function updateCalendar() {
+    // Limpa o conteúdo do grid de datas
+    dateGridElement.innerHTML = "";
+
+    // Obter o mês e ano atual
+    const currentMonth = currentDate.getMonth();
+    const currentYear = currentDate.getFullYear();
+
+    // Atualiza o elemento de indicação do mês e ano
+    currentMonthYearElement.textContent = new Intl.DateTimeFormat("pt-BR", {
+        year: "numeric",
+        month: "long",
+    }).format(currentDate);
+
+    // Obtém o primeiro dia do mês atual
+    const firstDayOfMonth = new Date(currentYear, currentMonth, 1);
+
+    // Obtém o número de dias no mês atual
+    const numberOfDaysInMonth = new Date(
+        currentYear,
+        currentMonth + 1,
+        0
+    ).getDate();
+
+    // Obtém o dia da semana do primeiro dia do mês
+    const firstDayOfWeek = firstDayOfMonth.getDay();
+
+    // Adiciona os botões de datas ao grid
+    for (let i = 0; i < firstDayOfWeek; i++) {
+        const emptyButton = document.createElement("button");
+        dateGridElement.appendChild(emptyButton);
+    }
+
+    for (let i = 1; i <= numberOfDaysInMonth; i++) {
+        const button = document.createElement("button");
+        const time = document.createElement("time");
+        time.setAttribute(
+        "datetime",
+        `${currentYear}-${currentMonth + 1}-${i.toString().padStart(2, "0")}`
+        );
+        time.textContent = i;
+        button.appendChild(time);
+        dateGridElement.appendChild(button);
+    }
+    }
+
+    // Atualiza o calendário inicial
+    updateCalendar();
+
+    // Evento de clique do botão de mês anterior
+    prevMonthBtn.addEventListener("click", () => {
+    currentDate.setMonth(currentDate.getMonth() - 1);
+    updateCalendar();
+    });
+
+    // Evento de clique do botão de próximo mês
+    nextMonthBtn.addEventListener("click", () => {
+    currentDate.setMonth(currentDate.getMonth() + 1);
+    updateCalendar();
+    });
+        
+})
