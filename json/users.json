@@ -1,9 +1,9 @@
 [
     {
       "id": 1,
-      "nome": "Dr. Roberto da Silva",
-      "especialidades": "Endócrino",
-      "convênio": "SulAmérica Saúde",
+      "nome": "Dra. Suzane Meirelles",
+      "especialidade": "Psiquiatra",
+      "convenio": "Care Plus",
       "email": "Sincere@april.biz",
       "address": {
         "street": "Kulas Light",
@@ -26,8 +26,8 @@
     {
       "id": 2,
       "nome": "Dra. Marcela Oliveira",
-      "especialidades": "Cardiologista",
-      "convênio": "Amil",
+      "especialidade": "Cardiologista",
+      "convenio": "Amil",
       "email": "Shanna@melissa.tv",
       "address": {
         "street": "Victor Plains",
@@ -50,8 +50,8 @@
     {
       "id": 3,
       "nome": "Dr. Márcio Castanho",
-      "especialidades": "Ginecologista",
-      "convênio": "Unimed",
+      "especialidade": "Ginecologista",
+      "convenio": "Unimed",
       "email": "Nathan@yesenia.net",
       "address": {
         "street": "Douglas Extension",
@@ -74,8 +74,8 @@
     {
       "id": 4,
       "nome": "Dr. Rafael Santos",
-      "especialidades": "Oftalmologista",
-      "convênio": "Allianz Saúde",
+      "especialidade": "Oftalmologista",
+      "convenio": "Allianz Saúde",
       "email": "Julianne.OConner@kory.org",
       "address": {
         "street": "Hoeger Mall",
@@ -98,8 +98,8 @@
     {
       "id": 5,
       "nome": "Dr. Luciano luz",
-      "especialidades": "Otorrinolaringologista",
-      "convênio": "Prevent Senior",
+      "especialidade": "Otorrinolaringologista",
+      "convenio": "Prevent Senior",
       "email": "Lucio_Hettinger@annie.ca",
       "address": {
         "street": "Skiles Walks",
@@ -121,9 +121,9 @@
     },
     {
       "id": 6,
-      "nome": "Dra. Suzane Meirelles",
-      "especialidades": "Psiquiatra",
-      "convênio": "Care Plus",
+      "nome": "Dr. Roberto da Silva",
+      "especialidade": "Endócrino",
+      "convenio": "SulAmérica Saúde",
       "email": "Karley_Dach@jasper.info",
       "address": {
         "street": "Norberto Crossing",
@@ -146,8 +146,8 @@
     {
       "id": 7,
       "nome": "Dra. Bruna Reis",
-      "especialidades": "Fisioterapeuta",
-      "convênio": "Porto Seguro Saúde",
+      "especialidade": "Fisioterapeuta",
+      "convenio": "Porto Seguro Saúde",
       "email": "Telly.Hoeger@billy.biz",
       "address": {
         "street": "Rex Trail",
@@ -170,8 +170,8 @@
     {
       "id": 8,
       "nome": "Dr. Alexandre Queiroz",
-      "especialidades": "Dermatologista",
-      "convênio": "Amil",
+      "especialidade": "Dermatologista",
+      "convenio": "Amil",
       "email": "Sherwood@rosamond.me",
       "address": {
         "street": "Ellsworth Summit",
@@ -194,8 +194,8 @@
     {
       "id": 9,
       "nome": "Dr. Luiz Antônio",
-      "especialidades": "Neurologista",
-      "convênio": "Prevent Senior",
+      "especialidade": "Neurologista",
+      "convenio": "Prevent Senior",
       "email": "Chaim_McDermott@dana.io",
       "address": {
         "street": "Dayna Park",
@@ -218,8 +218,8 @@
     {
       "id": 10,
       "nome": "Dra. Leticia Fioravanti",
-      "especialidades": "Pediátra",
-      "convênio": "SulAmérica Saúde",
+      "especialidade": "Pediátra",
+      "convenio": "SulAmérica Saúde",
       "email": "Rey.Padberg@karina.biz",
       "address": {
         "street": "Kattie Turnpike",

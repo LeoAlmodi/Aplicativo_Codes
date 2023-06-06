@@ -13,8 +13,9 @@ document.addEventListener("DOMContentLoaded", function(){
     const value = e.target.value.toLowerCase()
     users.forEach(user => {
         const isVisible =
-        user.name.toLowerCase().includes(value) ||
-        user.email.toLowerCase().includes(value)
+        user.nome.toLowerCase().includes(value) ||
+        user.especialidade.toLowerCase().includes(value)
+        user.convenio.toLowerCase().includes(value)
         user.element.classList.toggle("hide", !isVisible)
     })
     })
@@ -24,12 +25,14 @@ document.addEventListener("DOMContentLoaded", function(){
     .then(data => {
         users = data.map(user => {
         const card = userCardTemplate.content.cloneNode(true).children[0]
-        const header = card.querySelector("[data-header]")
-        const body = card.querySelector("[data-body]")
-        header.textContent = user.name
-        body.textContent = user.email
+        const name = card.querySelector("[data-name]")
+        const specialty = card.querySelector("[data-specialty]")
+        const health_insurance = card.querySelector("[data-health_insurance]")
+        name.textContent = user.nome
+        specialty.textContent = user.especialidade
+        health_insurance.textContent = user.convenio
         userCardContainer.append(card)
-        return { name: user.name, email: user.email, element: card }
+        return { nome: user.nome, especialidade: user.especialidade, convenio: user.convenio ,element: card }
         })
     })
 
