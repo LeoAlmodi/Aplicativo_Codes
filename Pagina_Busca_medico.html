@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <header class="ret_azul">
@@ -21,16 +21,31 @@
     
     <main>
         <div class="search-wrapper">
-            <label for="search">Search Users</label>
+            <label for="search" class=""></label>
             <input type="search" id="search" data-search>
         </div>
-        <div class="user-cards" data-user-cards-container></div>
+
+
+        <div class="user-cards coluna" data-user-cards-container></div>
         <template data-user-template>
-            <div class="card">
-                <div class="header" data-header></div>
-                <div class="body" data-body></div>
-            </div>
+            <div class="coluna cinza1_card card_pad1 mg_all_0_25"><a href="Perfil_Medico.html">
+                <div>
+                    <div class="linha">
+                        <div>
+                            <img class="mg_left1" src="img/Perfil_pag1.png" alt="Perfil">
+                        </div>
+                        <div>
+                            <div class="mg_left1">
+                                <div class="coluna cinza2_card card_14 height_1_5 mg_top0_5"><h4 class="azul_fonte fonte_bold fonte_regular" data-header></h4></div>
+                                <div class="coluna cinza2_card card_14 height_1_5"><h4 class="azul_fonte fonte_bold fonte_regular" data-body></h4></div>
+                                <div class="coluna cinza2_card card_14 height_1_5 mg_bottom0_5"><h4 class="azul_fonte fonte_bold fonte_regular" data-body></h4></div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a></div>
         </template>
+
 
         <!-- <ul class="coluna">
             <li class="linha justify_space_between cinza1_card card_pad1_1 mg_top1 fonte_bold height_3">

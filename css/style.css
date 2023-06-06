@@ -371,6 +371,10 @@ h6 {
 
 /* MARGEM */
 
+.mg_all_0_25{
+    margin: 0.25rem;
+}
+
 .mg_top0_1{
     margin-top: 0.1rem;
 }
@@ -784,11 +788,12 @@ a {
 
                                 /* Busca */
 
-
 .search-wrapper {
 display: flex;
 flex-direction: column;
-gap: .25rem;
+gap: 2rem;
+width: 390px;
+margin: 0 auto;
 }
 
 input {
@@ -796,17 +801,16 @@ font-size: 1rem;
 }
 
 .user-cards {
-display: grid;
 grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 gap: .25rem;
 margin-top: 1rem;
 }
 
-.card {
+/* .card {
 border: 1px solid black;
 background-color: white;
 padding: .5rem;
-}
+} */
 
 .card > .header {
 margin-bottom: .25rem;
