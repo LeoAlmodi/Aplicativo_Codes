@@ -20,7 +20,19 @@
     </header>
     
     <main>
-        <ul class="coluna">
+        <div class="search-wrapper">
+            <label for="search">Search Users</label>
+            <input type="search" id="search" data-search>
+        </div>
+        <div class="user-cards" data-user-cards-container></div>
+        <template data-user-template>
+            <div class="card">
+                <div class="header" data-header></div>
+                <div class="body" data-body></div>
+            </div>
+        </template>
+
+        <!-- <ul class="coluna">
             <li class="linha justify_space_between cinza1_card card_pad1_1 mg_top1 fonte_bold height_3">
                 <label class="azul_fonte mg_left2" for="nome">Nome:</label>
                 <input class="width_10 height_1_5 mg_right1" type="text" id="nome" />
@@ -45,7 +57,7 @@
                 </ul>
             </li></a>
             
-        </ul>
+        </ul> -->
 
         <!-- criar um botao que vá para a pagina de resultados -->
 
