@@ -35,8 +35,11 @@ document.addEventListener("DOMContentLoaded", function(){
         return { nome: user.nome, especialidade: user.especialidade, convenio: user.convenio ,element: card }
         })
     })
-
+})
 // ------------------------------------------------------------------------------------------
+
+
+document.addEventListener("DOMContentLoaded", function(){
 
     card1_comp = document.getElementById("card1");
     compartilhar2 = document.getElementById("comp2");
@@ -45,8 +48,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
     compartilhar2.addEventListener('click', function(){
         if (compartilhar2.innerHTML != "Compartilhado"){
-            compartilhar2.innerHTML = "Compartilhado";
-            
+            compartilhar2.innerHTML = "Compartilhado"; 
 
         }
         else {
