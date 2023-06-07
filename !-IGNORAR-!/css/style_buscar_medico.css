@@ -1,0 +1,141 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0.8rem;
+}
+
+.ret_azul {
+    position: flex;
+    height: 126px;
+    width: 100%;
+    top: 0%;
+    background-color: #0A3042;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.cards_busca{
+    display: fixed;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 1rem;
+    width: 22.375rem;
+    height: 2.5rem;
+    margin: 1rem; 
+    position: relative;   
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.busca_médico{
+    display: fixed;
+    align-items: left;
+    background-color: lightgreen;
+    width: 22.375rem;
+    height: auto;
+    margin: 1rem;
+    position: relative;   
+    font-size: 1rem;
+    text-align: left;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+h1{
+    color: white;
+    font-size: 2rem;
+    padding: 3rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -9.625rem;
+}
+
+.logo_inicial {
+    max-width: 80px; 
+    padding: 1rem;
+}
+
+.linha_aba {
+    position: fixed;
+    bottom: 0%;
+    border-top: 0.1rem solid #0A3042;
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.cards_resultado_medico {
+    
+    height: 110px;
+    width: 350px;
+    left: auto;
+    background-color: lightgray;
+    border-radius: 1rem;
+    margin: 0.3rem;
+}
+
+.cards_resultado_medico2 {
+
+    height: 24px;
+    width: 232px;
+    background-color: darkgray;
+    border-radius: 1rem;
+    margin: 5px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.perfil_busca {
+    max-width: 80px; 
+    padding: 1rem;
+}
+
+.botao_buscar{
+    background-color: lightgreen;
+    color: #0A3042;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem;
+    padding-left: 3rem; 
+    padding-right: 3rem;
+    position: relative;
+    left: 0.5rem;
+}
+
+h3 {
+    font-size: 1rem;
+    position: relative;
+    text-align: center;
+    margin-top: 0.27rem;
+    color: #0A3042;
+}
+
